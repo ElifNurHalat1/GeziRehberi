@@ -1,0 +1,231 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+#menu{
+    height: 90px;
+   padding: 0 40px;
+}
+#logo{
+    font-size: 40px;
+    line-height: 80px;
+    color: #041594;
+    float: left;
+}
+nav{
+    float:inherit;
+    line-height: 150px;
+}
+nav a:link{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #041594;
+    }
+nav a:hover{
+    border-bottom: 2px solid  #041594;
+}
+nav a:visited{
+    text-decoration: none;
+    margin-right: 25px;
+    color: #041594;
+}
+.ikon{
+    margin-right: 7px;
+    font-size: 16px;
+}
+#anasayfa{
+    
+    height: 500px;
+    background-image: url("../resim/img1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#black{
+    height: 500px;
+    background-color: black;
+    opacity: 0.5;
+}
+#icerik{
+    position:absolute;
+    top: 45%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    color: white;
+    font-size: 25px;
+}
+.container{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+}
+.img-fluid{
+    max-width: 100%;
+    height: auto;
+}
+#seyahat{
+    background-color: #fff;
+    padding: 50px;
+    text-align: center;
+    height: 700px;
+}
+.card{
+    width: 320px;
+    height: 350px;
+    border: 1px solid #ddd;
+    display: inline-block;
+}
+h3{
+    color: #041594;
+    font-size: 35px;
+    line-height: 50px;
+}
+.baslikcard{
+    font-size: 17px;
+    color: #041594;
+}
+.cardp{
+    color: #888;
+}
+.card:hover{
+    border: 2px solid gray;
+}
+#bilmengereken{
+
+    background-color: #003666;
+    padding: 20px;
+    height: 500px;
+    text-align: center;
+}
+#bilmenh3{
+    color: white;
+}
+.sutun-sol-sag{
+    width: 240px;
+    float: left;
+    padding: 15px;
+}
+.oval{
+    border-radius: 50%;
+}
+.bilmenisim{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.bilmenp{
+    color:#888;
+    font-size: 17px;
+
+}
+.sutun{
+    width: 240px;
+    float: left;
+    padding: 1px;
+}
+#iletisim{
+    background: url("../resim/iletisim.jpg");
+    background-size: cover;
+    padding: 50px;
+    height:800px;
+    text-align: center;
+}
+#h3iletisim{
+    color: white;
+}
+#iletisimopak{
+    background: rgba(255, 255, 255, 0.2);
+    padding: 30px 20px;
+    border-radius: 5px;
+  
+    height: 530px;
+}
+#formgroup{
+    width: 700px;
+    float: left;
+    height: 450px;
+    text-align: left;
+}
+#solform{
+    width: 50%;
+    float: left;
+    padding-right: 5px;
+}
+#sagform{
+    width: 50%;
+    float: right;
+    padding-left: 5px;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #495057;
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
+    border: 1px solid #ced4da
+}
+textarea{
+    font-family: Arial;
+}
+input[type="submit"]{
+    cursor: pointer;
+    background-color: rgb(127, 136, 104);
+    margin-left: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+input[type="file"]
+{
+    cursor: pointer;
+    background-color:rgb(127, 136, 104);
+    font-size: 18px;
+    letter-spacing: 1px;
+    padding: 3px 10px;
+    color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+   
+}
+#adres{
+    width: 450px;
+    float: right;
+    padding: 30px;
+    height: 500px;
+    text-align: left;
+}
+#adresbaslik{
+    font-size: 25px;
+    color: white;
+}
+.adresp{
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.5px;
+}
+#copyright{
+    color: white;
+    font-size: 22px;
+    letter-spacing: 1.5px;
+
+}
+#up{
+   color: white;
+   border:1px solid white;
+   border-radius: 50%;
+   font-size: 15px;
+   padding: 9px 12px;
+   margin-top: 15px;
+}
